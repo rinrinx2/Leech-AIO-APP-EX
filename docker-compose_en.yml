@@ -16,7 +16,7 @@ services:
     environment:
       GLOBAL_USER: admin
       # Username for all web services except qBittorret.
-      GLOBAL_PASSWORD: password
+      GLOBAL_PASSWORD: admin
       # Password for all web services except qBittorret, double as Aria2 RPC token. Recommend strong password.
       GLOBAL_PORTAL_PATH: /portal
       # Portal page & base URL for all web services. Do not set to blank or '/'.
